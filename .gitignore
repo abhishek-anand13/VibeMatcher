@@ -1,0 +1,18 @@
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment variables
+.env
+
+# Ignore data and model cache files
+*.npy
+*.pkl
+*.csv
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
