@@ -1,0 +1,22 @@
+Reflection - Vibe Matcher
+
+Vibe is a very subjective topic, it varies from person to person but by doing this project it taught me how powerful embeddings
+can be when you want a machine to understand something such as vibe.
+
+EDGE CASES I THOUGHT ABOUT 
+
+Q. What if the model doesn’t find a confident match?  
+  → I added a fallback message for low scores so the system always responds gracefully.
+Q. What if queries use totally new words?  
+  → The embeddings still pick up similar semantic directions, which was really interesting to see.
+
+- I also tested multiple “vibe types” to make sure it wasn’t just matching the same items every time.
+
+Improvements & Next Steps  
+1. Integrate a vector database (Pinecone / FAISS) for faster, scalable search.  
+2. Expand dataset with hundreds of real fashion descriptions to improve representation and similarity accuracy.  
+3. Fine-tune embeddings on domain-specific data (fashion blogs, trend reports) to enhance nuance.  
+4. Add a frontend (Streamlit or Gradio) to make it interactive and user-facing.  
+5. Explore hybrid ranking and combine semantic similarity with metadata (price, fabric, weather).  
+
+
